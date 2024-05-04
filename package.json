@@ -1,0 +1,17 @@
+{
+  "name": "fbi-system",
+  "version": "1.0.0",
+  "description": "Descripción\r El FBI está abriendo un departamento de informática y te ha contratado para crear el sistema\r online que gestione misiones secretas, necesitarás programar un servidor con Express que\r utilice JWT para la autorización de agentes que visiten las páginas restringidas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0"
+  }
+}

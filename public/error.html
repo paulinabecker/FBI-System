@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FBI System</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="./js/error.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 60vh;
+    }
+    h1 {
+      text-align: center;
+    }
+    .card {
+      margin-top: 20px;
+    }
+    .text-white {
+      color: white;
+    }
+    a {
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: black;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>&#128374; FBI System &#128374;</h1>
+  <div class="card bg-dark text-center">
+    <div class="card-body">
+      <h1>&#128372;&#128372;&#128372;</h1>
+      <p class="text-center m-1" id="messageError"></p>
+      <p id="passwordErrorMessage" class="text-white">Credenciales incorrectas</p> 
+    </div>
+    <p id="msjError" class="text-white"></p>
+    <a href="http://localhost:3000">Volver</a>
+  </div>
+  
+</body>
+</html>
